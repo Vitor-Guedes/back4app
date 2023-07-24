@@ -1,0 +1,14 @@
+{
+    "name": "app/back4app",
+    "description": "Hospendando app php no back4app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Guedes",
+            "email": "vtrf2.0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
