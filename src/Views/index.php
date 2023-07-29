@@ -10,6 +10,7 @@
 
     <a href="/create">Add doc to mongo</a>
 
+    <?php var_dump($_ENV) ?>
     <?php var_dump(get_env('CONNECTION_TYPE')) ?>
 </body>
 </html>
