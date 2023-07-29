@@ -8,6 +8,8 @@
 <body>
     <h1>Bem vindo!</h1>
 
-    <a href="/login">Fazer login</a>
+    <a href="/create">Add doc to mongo</a>
+
+    <?php var_dump(get_env('CONNECTION_TYPE')) ?>
 </body>
 </html>

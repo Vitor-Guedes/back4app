@@ -11,12 +11,17 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "guedes/router": "dev-master"
+        "guedes/router": "dev-master",
+        "guedes/di": "^1.0"
     },
     "repositories": [
         {
             "type": "vcs",
             "url" : "https://github.com/Vitor-Guedes/guedes-router.git"
+        },
+        {
+            "type": "vcs",
+            "url" : "https://github.com/Vitor-Guedes/guedes-di.git"
         }
     ]
 }
