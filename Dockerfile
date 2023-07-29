@@ -17,6 +17,8 @@ WORKDIR /var/www/html
 
 COPY . .
 
+RUN composer clearcache
+
 RUN composer install --no-scripts --no-dev --no-interaction --optimize-autoloader
 
 RUN chown -R www-data:www-data /var/www/html
